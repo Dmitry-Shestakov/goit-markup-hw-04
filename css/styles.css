@@ -386,6 +386,12 @@ header {
   background-color: var(--accent-color);
   color: #ffffff;
 }
+
+.team-soc-link:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
 /* Clients */
 
 .clients {
@@ -429,7 +435,12 @@ header {
 
 .clients-links:hover {
   color: var(--accent-color);
-  border: solid var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.clients-links:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 /* Footer */
@@ -532,6 +543,10 @@ header {
 }
 
 .social-footer-link:hover {
+  background-color: var(--accent-color);
+}
+
+.social-footer-link:focus {
   background-color: var(--accent-color);
 }
 
